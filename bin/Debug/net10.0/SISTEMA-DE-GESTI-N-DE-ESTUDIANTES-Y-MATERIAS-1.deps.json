@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "SISTEMA-DE-GESTI-N-DE-ESTUDIANTES-Y-MATERIAS-1/1.0.0": {
+        "runtime": {
+          "SISTEMA-DE-GESTI-N-DE-ESTUDIANTES-Y-MATERIAS-1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SISTEMA-DE-GESTI-N-DE-ESTUDIANTES-Y-MATERIAS-1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

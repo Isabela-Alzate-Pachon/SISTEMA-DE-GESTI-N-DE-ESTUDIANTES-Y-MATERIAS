@@ -1,7 +1,7 @@
-using SistemaEstudiantes.Core;
-using SistemaEstudiantes.Models;
+using Core;
+using Models;
 
-namespace SistemaEstudiantes.UI
+namespace UI
 {
     public class Menu
     {
@@ -28,7 +28,7 @@ namespace SistemaEstudiantes.UI
                 Console.WriteLine("║  5. Gestionar materias               ║");
                 Console.WriteLine("║  6. Salir                            ║");
                 Console.WriteLine("╚══════════════════════════════════════╝");
-                Console.Write("\n👉 Selecciona una opción: ");
+                Console.Write("\n Selecciona una opción: ");
 
                 int.TryParse(Console.ReadLine(), out opcion);
 
@@ -39,8 +39,8 @@ namespace SistemaEstudiantes.UI
                     case 3: BuscarEstudiante(); break;
                     case 4: EliminarEstudiante(); break;
                     case 5: GestionarMaterias(); break;
-                    case 6: Console.WriteLine("\n👋 Hasta luego!"); break;
-                    default: Console.WriteLine("\n⚠️  Opción inválida."); Pausa(); break;
+                    case 6: Console.WriteLine("\n Hasta luego!"); break;
+                    default: Console.WriteLine("\n  Opción inválida."); Pausa(); break;
                 }
             }
         }
@@ -85,7 +85,7 @@ namespace SistemaEstudiantes.UI
 
             if (nodo == null)
             {
-                Console.WriteLine("\n⚠️  Estudiante no encontrado.");
+                Console.WriteLine("\n  Estudiante no encontrado.");
             }
             else
             {
@@ -124,12 +124,12 @@ namespace SistemaEstudiantes.UI
 
             if (nodo == null)
             {
-                Console.WriteLine("\n⚠️  Estudiante no encontrado.");
+                Console.WriteLine("\n  Estudiante no encontrado.");
                 Pausa();
                 return;
             }
 
-            Console.WriteLine($"\n✅ Estudiante encontrado: {nodo.Dato.Nombre} {nodo.Dato.Apellido}");
+            Console.WriteLine($"\n Estudiante encontrado: {nodo.Dato.Nombre} {nodo.Dato.Apellido}");
 
             int opcion = 0;
             while (opcion != 5)
@@ -143,7 +143,7 @@ namespace SistemaEstudiantes.UI
                 Console.WriteLine("║  4. Eliminar materia                 ║");
                 Console.WriteLine("║  5. Volver al menú principal         ║");
                 Console.WriteLine("╚══════════════════════════════════════╝");
-                Console.Write("\n👉 Selecciona una opción: ");
+                Console.Write("\n Selecciona una opción: ");
 
                 int.TryParse(Console.ReadLine(), out opcion);
 
@@ -154,7 +154,7 @@ namespace SistemaEstudiantes.UI
                     case 3: ModificarNota(nodo); break;
                     case 4: EliminarMateria(nodo); break;
                     case 5: break;
-                    default: Console.WriteLine("\n⚠️  Opción inválida."); Pausa(); break;
+                    default: Console.WriteLine("\n  Opción inválida."); Pausa(); break;
                 }
             }
         }
@@ -172,7 +172,7 @@ namespace SistemaEstudiantes.UI
 
             if (nota < 0 || nota > 5)
             {
-                Console.WriteLine("\n⚠️  La nota debe estar entre 0.0 y 5.0.");
+                Console.WriteLine("\n  La nota debe estar entre 0.0 y 5.0.");
                 Pausa();
                 return;
             }
@@ -197,7 +197,7 @@ namespace SistemaEstudiantes.UI
 
             if (nuevaNota < 0 || nuevaNota > 5)
             {
-                Console.WriteLine("\n⚠️  La nota debe estar entre 0.0 y 5.0.");
+                Console.WriteLine("\n  La nota debe estar entre 0.0 y 5.0.");
                 Pausa();
                 return;
             }

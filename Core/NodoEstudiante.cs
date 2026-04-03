@@ -1,6 +1,6 @@
-using SistemaEstudiantes.Models;
+using Models;
 
-namespace SistemaEstudiantes.Core
+namespace Core
 {
     public class NodoEstudiante
     {

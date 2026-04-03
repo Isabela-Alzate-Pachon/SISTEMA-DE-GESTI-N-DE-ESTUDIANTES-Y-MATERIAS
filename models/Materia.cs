@@ -1,4 +1,4 @@
-namespace SistemaEstudiantes.Models
+namespace Models
 {
     public class Materia
     {

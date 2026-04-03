@@ -1,4 +1,5 @@
-﻿using SistemaEstudiantes.UI;
+﻿using UI;
 
 Menu menu = new Menu();
 menu.MostrarMenuPrincipal();
+
