@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using SistemaEstudiantes.UI;
+
+Menu menu = new Menu();
+menu.MostrarMenuPrincipal();
