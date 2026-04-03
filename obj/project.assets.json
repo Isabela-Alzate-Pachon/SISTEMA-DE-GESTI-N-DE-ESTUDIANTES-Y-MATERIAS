@@ -8,19 +8,19 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\isalz\\.nuget\\packages\\": {}
+    "C:\\Users\\Laura Garcia\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\isalz\\OneDrive\\Escritorio\\Sistema gestion de estudiantes y materias\\SISTEMA-DE-GESTI-N-DE-ESTUDIANTES-Y-MATERIAS-1\\SISTEMA-DE-GESTI-N-DE-ESTUDIANTES-Y-MATERIAS-1.csproj",
+      "projectUniqueName": "C:\\Users\\Laura Garcia\\OneDrive\\Desktop\\Sistema estudiante materias\\SISTEMA-DE-GESTI-N-DE-ESTUDIANTES-Y-MATERIAS\\SISTEMA-DE-GESTI-N-DE-ESTUDIANTES-Y-MATERIAS-1.csproj",
       "projectName": "SISTEMA-DE-GESTI-N-DE-ESTUDIANTES-Y-MATERIAS-1",
-      "projectPath": "C:\\Users\\isalz\\OneDrive\\Escritorio\\Sistema gestion de estudiantes y materias\\SISTEMA-DE-GESTI-N-DE-ESTUDIANTES-Y-MATERIAS-1\\SISTEMA-DE-GESTI-N-DE-ESTUDIANTES-Y-MATERIAS-1.csproj",
-      "packagesPath": "C:\\Users\\isalz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\isalz\\OneDrive\\Escritorio\\Sistema gestion de estudiantes y materias\\SISTEMA-DE-GESTI-N-DE-ESTUDIANTES-Y-MATERIAS-1\\obj\\",
+      "projectPath": "C:\\Users\\Laura Garcia\\OneDrive\\Desktop\\Sistema estudiante materias\\SISTEMA-DE-GESTI-N-DE-ESTUDIANTES-Y-MATERIAS\\SISTEMA-DE-GESTI-N-DE-ESTUDIANTES-Y-MATERIAS-1.csproj",
+      "packagesPath": "C:\\Users\\Laura Garcia\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Laura Garcia\\OneDrive\\Desktop\\Sistema estudiante materias\\SISTEMA-DE-GESTI-N-DE-ESTUDIANTES-Y-MATERIAS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\isalz\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Laura Garcia\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
