@@ -31,7 +31,7 @@ namespace UI
                 Console.WriteLine("║  6. Salir                            ║");
                 Console.WriteLine("╚══════════════════════════════════════╝");
                 Console.ResetColor();
-                Console.Write("\n👉 Selecciona una opción: ");
+                Console.Write("\nSelecciona una opción: ");
 
                 int.TryParse(Console.ReadLine(), out opcion);
 
@@ -44,7 +44,7 @@ namespace UI
                     case 5: GestionarMaterias(); break;
                     case 6:
                         Console.ForegroundColor = ConsoleColor.Green;
-                        Console.WriteLine("\n👋 Hasta luego!");
+                        Console.WriteLine("\n Hasta luego!");
                         Console.ResetColor();
                         break;
                     default:
@@ -212,7 +212,7 @@ namespace UI
                 Console.WriteLine("║  5. Volver al menú principal         ║");
                 Console.WriteLine("╚══════════════════════════════════════╝");
                 Console.ResetColor();
-                Console.Write("\n👉 Selecciona una opción: ");
+                Console.Write("\n Selecciona una opción: ");
 
                 int.TryParse(Console.ReadLine(), out opcion);
 
@@ -313,7 +313,7 @@ namespace UI
         private void MostrarError(string mensaje)
         {
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine($"\n⚠️  {mensaje}");
+            Console.WriteLine($"\n  {mensaje}");
             Console.ResetColor();
         }
 
